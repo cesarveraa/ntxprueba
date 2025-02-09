@@ -1,0 +1,256 @@
+.carouselContentChild {
+  height: 820px;
+  width: 1580px;
+  position: relative;
+  background-color: var(--color-black);
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.mingcuteleftFillIcon {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 202px;
+  left: 487px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.iconParkSolidleftC {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 1;
+}
+.carouselLeftIconContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 0px 5px;
+}
+.iconParkSolidrightC {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 1;
+}
+.carouselLeftInner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 115px;
+}
+.carouselLeftContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 473px 0px 0px;
+}
+.image16Icon {
+  width: 450.6px;
+  position: relative;
+  border-radius: var(--br-4xl-4);
+  max-height: 100%;
+  object-fit: cover;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.image15Icon {
+  align-self: stretch;
+  height: 309px;
+  position: relative;
+  border-radius: var(--br-base-6);
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 1;
+}
+.image15Wrapper {
+  height: 386.2px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.carouselRightInner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.mingcuterightFillIcon {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  cursor: pointer;
+  z-index: 1;
+}
+.carouselRight {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 41px 0px 0px;
+}
+.podcastDescriptionContent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 39px;
+  max-width: 100%;
+}
+.podcastDescription {
+  width: 538px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 10px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.carouselRightContainer {
+  width: 879px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-18xl-5);
+  max-width: calc(100% - 49px);
+}
+.carouselContent {
+  width: 1580px;
+  background-color: var(--color-black);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-7xl) 136px var(--padding-92xl) 188px;
+  box-sizing: border-box;
+  position: relative;
+  flex-shrink: 0;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.image13Icon {
+  width: 300.4px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-base-6);
+  max-height: 100%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.imageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 103px 0px 0px;
+}
+.podcastCarousel {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 0px 0px;
+  box-sizing: border-box;
+  gap: var(--gap-2xl);
+  max-width: 100%;
+}
+.pgina {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-whitesmoke);
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-30xl);
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+@media screen and (max-width: 1500px) {
+  .podcastCarousel {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 1225px) {
+  .image16Icon {
+    flex: 1;
+  }
+
+  .image15Icon {
+    align-self: stretch;
+    width: auto;
+  }
+
+  .image15Wrapper {
+    flex: 1;
+  }
+
+  .carouselRightInner {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 850px) {
+  .carouselLeftContainer {
+    padding-top: 307px;
+    box-sizing: border-box;
+  }
+
+  .podcastDescriptionContent {
+    gap: var(--gap-lgi);
+    flex-wrap: wrap;
+  }
+
+  .carouselContent {
+    padding: var(--padding-xl) 68px var(--padding-53xl) 94px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .carouselRightContainer {
+    gap: var(--gap-lgi);
+  }
+
+  .carouselContent {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    padding-bottom: var(--padding-28xl);
+    box-sizing: border-box;
+  }
+
+  .imageContainer {
+    padding-top: var(--padding-48xl);
+    box-sizing: border-box;
+  }
+
+  .pgina {
+    gap: var(--gap-5xl);
+  }
+}

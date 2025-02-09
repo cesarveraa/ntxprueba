@@ -1,0 +1,98 @@
+.descrip1Child {
+  width: 429px;
+  height: 182px;
+  position: relative;
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.elOtroLadoDelCerebro {
+  margin: 0;
+}
+.blankLine {
+  margin: 0;
+  font-size: var(--font-size-sm);
+}
+.elOtroLadoContainer {
+  position: relative;
+  z-index: 1;
+}
+.vectorIcon {
+  height: 33.3px;
+  width: 33.3px;
+  position: relative;
+  cursor: pointer;
+  z-index: 1;
+}
+.vectorWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px var(--padding-12xs);
+}
+.descrip1 {
+  align-self: stretch;
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base-7) var(--padding-3xl) var(--padding-lg-7);
+  box-sizing: border-box;
+  gap: var(--gap-5xs-3);
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.miLtimaNeuronaContainer {
+  position: relative;
+}
+.vectorIcon1 {
+  width: 33.3px;
+  height: 26.7px;
+  position: relative;
+}
+.vectorContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px 0px var(--padding-10xs-9);
+}
+.vectorIcon2 {
+  height: 33.3px;
+  width: 33.3px;
+  position: relative;
+}
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-sm-4);
+}
+.descrip2Inner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px var(--padding-smi);
+}
+.descrip {
+  height: 182px;
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 279px;
+  max-width: 100%;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  font-family: var(--font-lato);
+}

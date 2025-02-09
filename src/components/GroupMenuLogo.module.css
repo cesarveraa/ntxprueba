@@ -1,0 +1,149 @@
+.groupMenuLogoChild {
+  height: 104px;
+  width: 1580px;
+  position: relative;
+  background-color: var(--color-black);
+  display: none;
+  max-width: 100%;
+}
+.logoNtxLatamBlueTransparenIcon {
+  height: 85px;
+  width: 90.5px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.logoBackground {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  background-color: var(--color-darkturquoise-100);
+  max-width: 100%;
+  z-index: 1;
+}
+.logoPadding {
+  align-self: stretch;
+  height: 1px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px var(--padding-7xl) 0px 0px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.home {
+  text-decoration: none;
+  width: 102px;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.projects {
+  text-decoration: none;
+  width: 137px;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.events {
+  text-decoration: none;
+  width: 112px;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.podcast {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  min-width: 119.4px;
+  z-index: 1;
+}
+.podcastButton {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-6xs) 0px 0px;
+}
+.ourTeam {
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  color: inherit;
+  z-index: 1;
+}
+.navigation {
+  width: 631px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.logoContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+}
+.logoContainerWrapper {
+  width: 1049.4px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm) 0px 0px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.groupMenuLogo {
+  align-self: stretch;
+  background-color: var(--color-black);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lgi) var(--padding-79xl) 0px;
+  box-sizing: border-box;
+  gap: var(--gap-21xl-3);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-darkturquoise-100);
+  font-family: var(--font-orbitron);
+}
+
+@media screen and (max-width: 1225px) {
+  .navigation {
+    display: none;
+  }
+
+  .groupMenuLogo {
+    padding-left: var(--padding-30xl);
+    padding-right: var(--padding-30xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 850px) {
+  .groupMenuLogo {
+    gap: var(--gap-xl);
+    padding-left: var(--padding-5xl);
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+}
